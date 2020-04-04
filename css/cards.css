@@ -10,8 +10,11 @@
 }
 
 .card {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
     margin: 10px 0 0 0;
+    border-color: orange;
+    border-radius: 5%;
+    border-width: 2px;
 }
 
 .day-descr {
@@ -33,3 +36,10 @@
     border-radius: 10px;
 }
 
+.date {
+    padding: 0px;
+    color: gray;
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
